@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "stickersmash",
+    "name": "StickerSmash",
     "slug": "stickersmash",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,16 +15,24 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mamallan5.stickersmash"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mamallan5.stickersmash"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a7bbca36-e823-41d1-962a-93dc3dfd36a1"
+      }
+    },
+    "owner": "mamallan5"
   }
 }
